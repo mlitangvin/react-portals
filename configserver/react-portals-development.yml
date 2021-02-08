@@ -1,0 +1,7 @@
+---
+SampleObject:
+  firstname: John
+  lastname: Doe
+variablename: NameOfVar
+sessiontimeout: 120
+hello: goodbye

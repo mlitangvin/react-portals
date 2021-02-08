@@ -1,0 +1,51 @@
+{
+  "name": "react-portals",
+  "version": "0.1.0",
+  "description": "React Portals Testing",
+  "main": "src/server.js",
+  "engines": {
+    "node": "^12"
+  },
+  "scripts": {
+    "dev": "NODE_ENV=local nodemon --exec babel-node src/server.js",
+    "dev:windows": "SET NODE_ENV=local&nodemon --exec babel-node src/server.js",
+    "webpack": "webpack -wd",
+    "build-webpack": "webpack -p",
+    "build": "babel src --out-dir dist --copy-files",
+    "test:watch": "jest --watchAll",
+    "test": "jest",
+    "test:cover": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.platform.manulife.io/AdvisorPortal/ap-react-ssr-boilerplate"
+  },
+  "keywords": [
+    "react",
+    "portals"
+  ],
+  "author": "tangvin",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "cloud-foundry-config-client": "^1.4.1",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "handlebars": "^4.7.6",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "webpack": "^4.32.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/node": "^7.12.6",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-transform-runtime": "^7.12.1",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-react": "^7.12.7",
+    "babel-loader": "^8.2.2",
+    "webpack-cli": "^3.3.2"
+  }
+}

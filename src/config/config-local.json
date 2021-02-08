@@ -1,0 +1,7 @@
+{
+  "appName": "react-portals",
+  "configLocation": "local",
+  "profile": "development",
+  "configServerName": "configserver",
+  "interval": 120
+}
